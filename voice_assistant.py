@@ -19,7 +19,7 @@ def get_audio():
         print("Listening...")
         audio = r.listen(source)
         try:
-            text = r.recognize_google(audio, language="ru-RU")
+            text = r.recognize_google(audio, language="en-US")
             print("You said: " + text)
             return text
         except:
@@ -46,7 +46,7 @@ def speak(text):
 # Main loop
 while True:
     # Wait for a key press
-    print("Press any key to start speaking...")
+    print("Press U to start speaking...")
     keyboard.wait("u")
     # Get audio input from microphone
     user_input = get_audio()
