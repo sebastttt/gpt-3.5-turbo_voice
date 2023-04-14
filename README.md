@@ -23,7 +23,7 @@ Copy and paste your API key into the openai.api_key variable in the script.
 Run the script using a Python interpreter:
 Copy code
 python voice_agent.py
-Press any key to start speaking into your microphone.
+Press "U" to start speaking into your microphone.
 Wait for the script to speak the response from OpenAI's GPT-3 language model.
 Press 'esc' to stop the program.
 
