@@ -7,7 +7,7 @@ import pyttsx3
 import requests
 
 # Set the API key
-openai.api_key = ("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")
+openai.api_key = ("OPENAI_KEY")
 
 # Initialize the speech recognizer and synthesizer
 r = sr.Recognizer()
